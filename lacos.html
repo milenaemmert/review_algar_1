@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home - Laços</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/global.css">
+	<link rel="stylesheet" href="css/lacos.css">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<main class="container">
+		<h1 class="main-title">Laços</h1>
+
+		<div class="content">
+			<h2 class="content-title">Estruturas de repetição</h2>
+			<p>
+				Utilizamos um laço, também chamado de estrutura de repetição ou loop, quando queremos que algo se repita. Dessa forma, não precisamos ficar escrevendo várias vezes o mesmo código.
+			</p>
+			<img src="img/est_rep.png" alt="Representação da estrutura de repetição" width="300">			
+		</div>
+
+		<div class="content">
+			<h2 class="content-title">For</h2>
+			<p>
+				A estrutura de repetição <span class="text-color__orange">for</span> precisa de:
+				<ol>
+					<li>=> um ponto de partida que se dá pela variável de inicialização e, por convenção, utilizamos a letra <span class="text-color__orange">i</span></li>
+					<li>=> uma condição, um ponto de limite, ou seja, até onde queremos que esse laço itere (dê a volta)</li>
+					<li>=> e uma interação, geralmente o incremento <span class="text-color__orange">i++</span> (i = i + 1)</li>
+				</ol>
+			</p>
+			<p>
+				Se quisermos mostrar no terminal os números de 1 a 5 podemos fazer:<br>
+				<span class="text-color__orange">console.log</span>(1)<br>
+				<span class="text-color__orange">console.log</span>(2)<br>
+				<span class="text-color__orange">console.log</span>(3)<br>
+				<span class="text-color__orange">console.log</span>(4)<br>
+				<span class="text-color__orange">console.log</span>(5)<br>
+			</p>			
+			<p>
+				Mas com uma estrutura de repetição, fica muito mais simples:<br>
+				<span class="text-color__orange">for</span>(<span class="text-color__orange">let</span> i = 1; i <= 5; i++) {<br>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="text-color__orange">console.log</span>(i)<br>
+				}
+			</p>
+					
+		</div>
+
+		<div class="container-button">
+			<button class="button"><a href="index.html" class="button-link">Home</a></button>
+			<button class="button"><a href="funcoes.html" class="button-link">Próximo</a></button>
+		</div>
+	</main>
+</body>
+</html>

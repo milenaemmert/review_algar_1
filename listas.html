@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home - Listas</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/global.css">
+	<link rel="stylesheet" href="css/listas.css">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<main class="container">
+		<h1 class="main-title">Listas</h1>
+
+		<div class="content">
+			<h2 class="content-title">Relembrando listas</h2>
+			<p>
+				<span class="text-color__orange">Listas</span> ou <span class="text-color__orange">arrays</span> são variáveis que contêm diversos valores.
+			</p>
+			<p>
+				Supondo que queremos armazenar o nome de cinco candidatas em um programa, poderíamos declarar cinco variáveis:
+			</p>
+			<p>
+				<span class="text-color__orange">let</span> candidata1 = 'Ana'<br>
+				<span class="text-color__orange">let</span> candidata2 = 'Pam'<br>
+				<span class="text-color__orange">let</span> candidata3 = 'Lu'<br>
+				<span class="text-color__orange">let</span> candidata4 = 'Bia'<br>
+				<span class="text-color__orange">let</span> candidata5 = 'Ju'<br>
+			</p>
+			<p>
+				E se fossem 100 candidatas? Ou então imagine uma loja gigantesca que tem mlhares de clientes e precisa armazenar os nomes, os CPF's, os endereços, os e-emails, os telefones de cada cliente... Seria muita variável, não?!
+			</p>
+		</div>
+
+		<div class="content">
+			<h2 class="content-title">Importante saber!</h2>
+			<p>
+				Com <span class="text-color__orange">listas</span>, apenas uma variável pode armazenar vários dados:
+			</p>
+			<p>
+				<span class="text-color__orange">let</span> candidatas = ['Ana', 'Pam', 'Lu', 'Bia', 'Ju']
+			</p>
+			<p>
+				Para saber o tamanho de uma lista, utilizamos a propriedade <span class="text-color__orange">.length</span>:
+			</p>
+			<p>
+				candidatas<span class="text-color__orange">.length</span> //retorna 5<br>
+			</p>
+			<p>
+				Os elementos de uma lista possuem um índice (ou posição). O primeiro elemento tem o índice 0. Para acessá-los, passamos o índice entre colchetes ao lado do nome da lista:
+			</p>
+			<p>
+				candidatas<span class="text-color__orange">[0]</span> //retorna 'Ana'<br>
+				candidatas<span class="text-color__orange">[1]</span> //retorna 'Pam'<br>
+				candidatas<span class="text-color__orange">[2]</span> //retorna 'Lu'<br>
+				candidatas<span class="text-color__orange">[3]</span> //retorna 'Bia'<br>
+				candidatas<span class="text-color__orange">[4]</span> //retorna 'Ju'<br>
+			</p>
+		</div>
+
+		<div class="container-button">
+			<button class="button"><a href="index.html" class="button-link">Home</a></button>
+			<button class="button"><a href="lacos.html" class="button-link">Próximo</a></button>
+		</div>
+	</main>
+</body>
+</html>

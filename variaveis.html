@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home - Variáveis</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/global.css">
+	<link rel="stylesheet" href="css/variaveis.css">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="container">
+	    <h1 class="main-title">Variáveis</h1>
+		
+			<div class="content">
+				<div class="content-title-image">
+					<h2 class="content-title">O que é uma variável?</h2>
+					<img src="img/shrek.png" alt="Shrek confuso." class="content-image__shrek">
+				</div>
+				<p>
+					Uma <span class="text-color__orange">variável</span> é um espaço na 
+					memória para armazenar algum 
+					valor, e esse valor pode ser alterado — <span class="font-style__italic">ou variado</span>, por isso variável.
+				</p>
+				<p>
+					Imagine uma carteira vazia. Agora adicionamos R$ 100 dentro dela. A carteira passa a ter um valor de cem reais dentro dela. Se gastarmos R$ 40, ela sofrerá uma variação em seu valor, e então terá um valor de R$ 60.
+				</p>
+			</div>
+
+			<div class="content">
+				<h2 class="content-title">Declarando uma variável</h2>
+				<p>
+					Em JavaScript podemos declarar variáveis usando <span class="text-color__orange">var</span> ou <span class="text-color__orange">let</span>. Aqui nos exemplos usaremos let.
+				</p>
+				<p>
+					Declarar uma variável significa criá-la, mas não quer dizer que ela contenha algum valor.
+				</p>
+				<p>
+					<span class="text-color__orange">let</span> carteira
+				</p>
+				<p>
+					Declaramos usando <span class="text-color__orange">var</span> ou <span class="text-color__orange">let</span> e um nome para essa variável.
+				</p>
+			</div>
+
+			<div class="content">
+				<h2 class="content-title">Inicializando uma variável</h2>
+				<p>
+					Inicializar uma variável significa atribuir a ela algum valor. Colocamos um sinal de igual e o valor:
+				</p>
+				<p>
+					<span class="text-color__orange">let</span> carteira = 100
+				</p>
+				<p>
+					Gastamos R$ 40, então a variável carteira passa a ter um novo valor de 60 reais: 
+				</p>
+				<p>
+					carteira - 40<br>
+					carteira passa a ter o valor de 60
+				</p>
+				<p>
+					Perceba que não usamos novamente o <span class="text-color__orange">let</span>, pois uma vez já declarada a variável, não é mais necessário usar <span class="text-color__orange">var</span> ou <span class="text-color__orange">let</span>.
+				</p>
+			</div>
+
+			<div class="content">
+				<h2 class="content-title">Para saber mais...</h2>
+				<p>
+					=> Por convenção, utilizamos camelCase para nomear variáveis em JavaScript
+				</p>
+				<p>
+					=> Variáveis em JS podem armazenar números inteiros, decimais, valores booleanos (true ou false), strings (caracteres alfanuméricos entre aspas), listas (arrays)...
+				</p>
+				<p>
+					<span class="text-color__orange">let</span> numeroInteiro = 5482<br>
+					<span class="text-color__orange">let</span> numeroDecimalPI = 3.1415<br>
+					<span class="text-color__orange">let</span> verdadeiro = true<br>
+					<span class="text-color__orange">let</span> endereco = “Rua Brasil, 25”<br>
+					<span class="text-color__orange">let</span> animais = [‘burro’, ‘gato’, ‘dragão’]<br>
+				</p>
+			</div>
+			
+			<div class="container-button">
+				<button class="button"><a href="index.html" class="button-link">Home</a></button>
+				<button class="button"><a href="operadores.html" class="button-link">Próximo</a></button>
+			</div>
+	</main>
+</body>
+</html>

@@ -1,0 +1,27 @@
+.container .content {
+    color: #ededed;
+    width: calc(50% - 32px);
+    height: 580px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container .content p {
+    margin: 16px 0;
+}
+
+.container .content img {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .container .content {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .container .content img {
+        width: 100%;
+        margin-top: 24px;
+    }
+}
